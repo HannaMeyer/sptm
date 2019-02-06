@@ -1,0 +1,20 @@
+Package: sptm
+Type: Package
+Title: Supporting functions for spatio-temporal models using machine learning
+Version: 0.0.1
+Authors@R: c(person("Hanna", "Meyer", email = "hanna.meyer@uni-muenster.de", role = c("cre", "aut")),
+             person("Tim", "Appelhans", role = c("ctb")),
+             person("Jannis", "Gottwald", role = c("ctb")),
+             person("Thomas", "Nauss", role = c("ctb")))
+Author: Hanna Meyer [cre, aut], Tim Appelhans [ctb], Jannis Gottwald [ctb], Thomas Nauss [ctb]             
+Maintainer: Hanna Meyer <hanna.meyer@geo.uni-marburg.de>
+Description: Supporting functions for spatio-temporal models using machine learning.
+License: GPL (>= 3) | file LICENSE
+URL: https://github.com/HannaMeyer/sptm
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.1.0)
+Imports: caret, CAST, pROC
+Suggests: knitr
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
